@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: rgb(224, 213, 213);
+  margin-top:20%;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 50%;
+  margin: 20px;
+  
+}
+.wrapper{
+  display: flex;
+}
+
+.wrapper .upgrade_type{
+  
+  display: flex;
+  background: #b4adad;
+  border-right: 2px dashed;
+  border-color: #9c9595;
+  position: relative;
+}
+.upgrade_name{
+
+  margin-top: 40px;
+  margin-left: -55px;
+}
+.wrapper .upgrade_type .red_column{
+
+  background: #f34949;
+  padding: 5px;
+  
+}
+
+.wrapper .content1{
+ 
+  
+  width: 30%;
+  background: #fff;
+  border-right: 2px dashed;
+  border-color: #9c9595;
+  position: relative;
+}
+.wrapper .content2{
+  
+  
+  width: 50%;
+  background: #fff;
+  border-right: 2px dashed;
+  border-color: #9c9595;
+  position: relative;
+}
+.wrapper .content3{
+  
+  
+  width: 50%;
+  background: #fff;
+  border-right: 2px dashed;
+  border-color: #9c9595;
+  position: relative;
+}
+
+.item{
+
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 10px;
+ 
+ 
+}
